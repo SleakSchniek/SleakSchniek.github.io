@@ -1,18 +1,21 @@
-# Ultra - Super fast Jekyll theme
+# The Lesbian Gaze
 
-Super fast, minimal one-column portfolio/blog theme built for Jekyll. Theme weighs under <strong>2kb</strong>. Perfect for your personal website, blog and portfolio.
+Das Repo hat ein paar wichtige Komponenten:
 
-### Key features
+- Posts: Jede Episode bekommt ihre eigene Seite
+- Pages: Seiten, von denen es nur eine gibt, liegen hier, z.B. About, Index
+- Includes: Damit sich der Code nicht wiederholt, liegen Header, Footer, etc. hier
+- Layouts: Definieren wie Posts und Pages aussehen
 
-- seo optimized
-- weighs under 2kb
-- portfolio/blog pages
-- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
-- responsive
-- inline css
-- compressed css, html
-- sitemap
-- robots.txt
-- atom feed
+## Setup
 
-# Demo [here](https://ultra-jekyll.netlify.com/)
+### Requirements
+
+## Neue Inhalte hinzufügen
+
+Um eine neue Episode hinzuzufügen in der Kommandozeile ausführen:
+
+    cp _drafts/episode-x.md _posts/JAHR-MONAT-TAG-episode-EPISODENNUMMER.md
+
+In der neuen Datei im `_posts/` Ordner im Header auch das X mit der Episodennummer ersetzen.
+Das Dateiende .md steht für Markdown. Wie Markdown geht, siehst du [hier](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links).
