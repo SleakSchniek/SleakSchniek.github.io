@@ -5,7 +5,7 @@ title: Episoden
 
 {% for post in site.posts %}
 <article role="article">
-  <h2><a href="{{ site.baseurl }}{{ post.url }}">
+  <h2><a class="epidoses" href="{{ site.baseurl }}{{ post.url }}">
     {{ post.title }}
   </a></h2>
   <p>{{ post.summary }}</p>
@@ -13,3 +13,4 @@ title: Episoden
 </article>
 {% endfor %}
 
+<script type="text/javascript">var mult = new Multiple({selector: '.episodes', background: 'linear-gradient(#273463, #8B4256)'})</script>
